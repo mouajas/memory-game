@@ -1,0 +1,115 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url('https://i.imgur.com/2gfwG.png');
+  background-size: 1400px;
+  color: white;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: navy;
+  text-align: center;
+}
+
+h2 {
+  font-family: verdana, arial, sans-serif;
+  color: navy;
+  text-align: center;
+  margin-top: -20px;
+}
+
+p {
+  font-family: verdana, arial, sans-serif;
+  color: navy;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 655px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  margin-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button5 {
+  background: plum;
+}
+
+#button6 {
+  background: tan;
+}
+
+#button1:active,
+#button1.lit {
+  background: green;
+  background-image: url("https://cdn.glitch.com/3cb6896b-3c49-4b76-8cac-b13f1027f131%2Fbudew.png?v=1614831767960");
+  background-size: 200px;
+}
+
+#button2:active,
+#button2.lit {
+  background: blue;
+  background-image: url("https://cdn.glitch.com/3cb6896b-3c49-4b76-8cac-b13f1027f131%2Fpoliwag.png?v=1614832269102");
+  background-size: 200px;
+
+}
+
+#button3:active,
+#button3.lit {
+  background: red;
+  background-image: url("https://cdn.glitch.com/3cb6896b-3c49-4b76-8cac-b13f1027f131%2Fvulpix.png?v=1614832264521");
+  background-size: 200px;
+
+}
+
+#button4:active,
+#button4.lit {
+  background: yellow;
+  background-image: url("https://cdn.glitch.com/3cb6896b-3c49-4b76-8cac-b13f1027f131%2Fmareep.png?v=1614831999505");
+  background-size: 200px;
+}
+
+#button5:active,
+#button5.lit {
+  background: purple;
+  background-image: url("https://cdn.glitch.com/3cb6896b-3c49-4b76-8cac-b13f1027f131%2Fvileplume.png?v=1614832274717");
+  background-size: 200px;
+
+}
+
+#button6:active,
+#button6.lit {
+  background: sienna;
+  background-image: url("https://cdn.glitch.com/3cb6896b-3c49-4b76-8cac-b13f1027f131%2Fcubone.png?v=1614832272412");
+  background-size: 200px;
+
+}
